@@ -1,0 +1,32 @@
+.head{
+    
+    
+    left: 80px;
+    background: url('/header_img.png') no-repeat ;
+    background-size: contain;
+    
+    position: relative;
+
+}
+.head h2{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    
+}
+
+.headerContent{
+  animation: bb  2.5s  ;  
+}
+
+
+
+@keyframes bb {
+
+    0%{
+        filter: blur(2px);
+    }
+    100%{
+        filter: blur(0);
+    }
+    
+}
