@@ -10,6 +10,8 @@ import LoginPopup from './components/LoginPopup'
 import MyOrders from './pages/MyOrders/MyOrders'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Chatbot from './components/Chatbot';
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -32,6 +34,7 @@ function App() {
 
     </Routes>
 
+    <Chatbot/>
       <div className=" font-outfit ">  </div>
       
     </div>
